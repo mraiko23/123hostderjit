@@ -1,11 +1,7 @@
 #!/usr/bin/env node
-TARGET_URL = 'https://123hostderjit.onrender.com';
+
 // Simple pinger: pings TARGET_URL every INTERVAL_MS (default 60000ms)
-const target = process.TARGET_URL;
-if (!target) {
-	console.error('ERROR: set TARGET_URL environment variable');
-	process.exit(1);
-}
+const target = process.env.TARGET_URL || 'https://one23hostderjit.onrender.com';
 
 const intervalMs = parseInt(process.env.INTERVAL_MS || '60000', 10);
 const timeoutMs = parseInt(process.env.REQUEST_TIMEOUT_MS || '10000', 10);
@@ -26,3 +22,4 @@ async function ping() {
 // Run immediately, then every interval
 ping();
 setInterval(ping, intervalMs);
+
