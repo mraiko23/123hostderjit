@@ -4,7 +4,7 @@ const http = require('http');
 
 // Hard-coded targets (fill any of these with a URL to enable pinging)
 const PING_TARGET_1 = 'https://adad412adasdasdadsasd233s.onrender.com/';
-const PING_TARGET_2 = '';
+const PING_TARGET_2 = 'https://one23hostderjit.onrender.com';
 const PING_TARGET_3 = '';
 const PING_TARGET_4 = '';
 const PING_TARGET_5 = '';
@@ -121,5 +121,6 @@ if (port > 0) {
 } else {
 	console.log('No PORT provided, not starting HTTP keep-alive server. Set PORT env var to enable.');
 }
+
 
 
