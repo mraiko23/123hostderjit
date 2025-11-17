@@ -1,0 +1,21 @@
+{
+  "name": "ping-service",
+  "version": "1.0.0",
+  "description": "Service for pinging multiple URLs to keep them alive",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ping",
+    "keep-alive",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
