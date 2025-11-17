@@ -4,7 +4,7 @@ const http = require('http');
 
 // Hard-coded targets (fill any of these with a URL to enable pinging)
 const PING_TARGET_1 = 'https://adadadasdasdas-ydbe.onrender.com';
-const PING_TARGET_2 = 'https://one23hostderjit-1-8s5z.onrender.com';
+const PING_TARGET_2 = 'https://one23hostderjit-upg4.onrender.com';
 const PING_TARGET_3 = 'https://freehost228adsahas.onrender.com';
 const PING_TARGET_4 = 'https://yeba228teststockpvb-2gju.onrender.com';
 const PING_TARGET_5 = 'https://aimodertelegram.onrender.com';
