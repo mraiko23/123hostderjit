@@ -9,7 +9,7 @@ const PING_TARGET_3 = 'https://freehost228adsahas.onrender.com';
 const PING_TARGET_4 = 'https://yeba228teststockpvb-2gju.onrender.com';
 const PING_TARGET_5 = 'https://aimodertelegram.onrender.com';
 const PING_TARGET_6 = 'https://aiblack.onrender.com';
-const PING_TARGET_7 = '';
+const PING_TARGET_7 = 'https://siskaprot.onrender.com';
 const PING_TARGET_8 = '';
 const PING_TARGET_9 = '';
 const PING_TARGET_10 = '';
@@ -121,6 +121,7 @@ if (port > 0) {
 } else {
 	console.log('No PORT provided, not starting HTTP keep-alive server. Set PORT env var to enable.');
 }
+
 
 
 
